@@ -17,7 +17,8 @@ console.log(myname);
 
 let userOne = {
     email : "aryan@google.com",
-    upi :"user@ybl"
+    upi :"user@ybl",
+    name : "aryan"
 }
 let userTwo = userOne  // ( refernce )
 
@@ -25,3 +26,4 @@ userTwo.email = "abc@google.com"
 
 console.log(userOne.email);   // abc@google.com  [ original bhi change ho jayega ] ...
 console.log(userTwo.email); 
+console.log(userTwo.name);
