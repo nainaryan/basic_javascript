@@ -7,7 +7,7 @@ const repocount = 50
 
 console.log(`Hello my name is ${name}and my repo count is ${repocount} `);   
 
-const gameName = new String ('aryan-nain')    // first word capital 
+const gameName = new String ('aryan-nain')    // first alphabet capital 
 
 console.log(gameName[0]);       //a 
 console.log(gameName.length);       //10
@@ -19,7 +19,8 @@ const newString = gameName.substring(0,4);  // do not obey negative values
 console.log(newString); //arya [ last wala index include nahi hua ]
 
 //*****************************slice() *********************
-const anotherstring = gameName.slice( -10 , 4 )   // you can use negative vlaues 
+let str3 = "0abcdefghijk"
+const anotherstring = str3.slice( -12 , 4 )   // you can use negative vlaues 
 console.log(anotherstring); // arya 
 
 //*******************************trim()********************************************************************
