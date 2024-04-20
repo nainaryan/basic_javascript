@@ -49,3 +49,19 @@ console.log(Object.keys(tinderUser));     //    [ 'id', 'name', 'isLoggedin' ]
 console.log(Object.values(tinderUser));     //  [ 1, 'thala', true ]
 
 console.log(Object.entries(tinderUser));        //  [ [ 'id', 1 ], [ 'name', 'thala' ], [ 'isLoggedin', true ] ]
+
+// de structuring 
+
+const course = {
+    courseName : " js in hindi " ,
+    courseInstructor : " hitesh choudhary " ,
+    price : 0
+}
+const { courseInstructor: CI } = course 
+console.log(CI );   //  hitesh choudhary 
+
+// intro to json api 
+// online tools --- > randomuser me API  ;   JSON formatter   ;
+
+// APIs --- > {  {} , { {} } }  ; [  {}  ,  { {},{} }  ] ;
+ 
