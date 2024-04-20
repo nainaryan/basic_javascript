@@ -28,5 +28,5 @@ jsUser.age = 20
 jsUser.greetings = function(){
     console.log(`hello js user , ${this.name}`);
 }
-console.log(jsUser.greetings);   // undefined
+//console.log(jsUser.greetings);   // undefined
 console.log(jsUser.greetings());
