@@ -39,3 +39,32 @@ console.log(loginUserMessage());   // undefined just logged in
 // you can use if statement with strict equality condition within a function
 
 // "", undefined , 0 , ... --> false in js 
+
+//************************************************************************************************************************************ */
+function calculateCardPrice(val1 , val2 , ...num1){   // rest operator 
+    return num1
+}
+console.log(calculateCardPrice(200,300,400,600));  // [ 400 , 600 ]  // 200 -> val1 , 300 -> val2 
+
+const user = {
+    username : "aryan",
+    price : 400
+}
+function handleObject(anyobject)
+{
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleObject(user)
+
+handleObject({
+    username: "sam",
+    price : 300
+})
+
+
+const myNewArray = [100,200,300,400]
+function returnSecondValue(getArray)
+{
+    return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));    // 200 
