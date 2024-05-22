@@ -19,3 +19,14 @@ if( score > 150 ){
     console.log(`user power : ${power}`);
 }
 //  console.log(`user power :${power}`);   //ERROR!!!
+
+// conditions 
+// >,< , >= , <= , == , != , === , !== 
+
+val1 = 3 
+val2 = "3"
+if( val1 === val2 ){
+    console.log(" EQUALS ");
+}else{
+    console.log("NOT EQUAL");
+}
