@@ -18,16 +18,16 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage() // sam , welcome to website
 
-console.log(this); // {}  emoty paranthesis
+console.log(this); // {}  empty paranthesis
 
-// function chai()
-// {
-//     let username = "aryan"
-//     console.log(this.username);  // undefined 
+function chai1()
+{
+    let username = "aryan"
+    console.log(this.username);  // undefined 
 
-// }
+}
 
-// chai()   // bahut saari values aayegi 
+ chai1()   // bahut saari values aayegi 
 
 // const chai = function(){
 //     console.log(this.username); // undefined 
@@ -36,10 +36,10 @@ console.log(this); // {}  emoty paranthesis
 /**************************** ARROW FUNCTION **************************** */
 const chai = ()=>{
     let username = "aryan "
-    // console.log(this.username); // undefined
-    // console.log(this); //undefined 
+     console.log(this.username); // undefined
+     console.log(this); //undefined 
 }
-// chai ()
+chai ()
 
 // ()=> {} // arrow function 
 
